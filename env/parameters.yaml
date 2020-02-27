@@ -1,0 +1,15 @@
+adminUser:
+  password: local:microk8s-cluster/adminUser:password
+  username: admin
+docker:
+  email: papu.bhattacharya@synectiks.com
+  password: local:microk8s-cluster/docker:password
+  url: https://index.docker.io/v1/
+  username: papu
+enableDocker: true
+pipelineUser:
+  email: papu.bhattacharya@synectiks.com
+  token: local:microk8s-cluster/pipelineUser:token
+  username: synectiks-code
+prow:
+  hmacToken: local:microk8s-cluster/prow:hmacToken
