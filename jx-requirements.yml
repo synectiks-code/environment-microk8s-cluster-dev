@@ -16,7 +16,7 @@ cluster:
   registry: docker.io
 environments:
 - ingress:
-    domain: 192.168.0.13.nip.io
+    domain: 100.81.5.28.nip.io
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
@@ -27,7 +27,7 @@ environments:
   key: dev
   repository: environment-microk8s-cluster-dev
 - ingress:
-    domain: 192.168.0.13.nip.io
+    domain: 100.81.5.28.nip.io
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: ""
@@ -38,7 +38,7 @@ environments:
   key: staging
   repository: environment-microk8s-cluster-staging
 - ingress:
-    domain: 192.168.0.13.nip.io
+    domain: 100.81.5.28.nip.io
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: ""
@@ -50,7 +50,7 @@ environments:
   repository: environment-microk8s-cluster-production
 gitops: true
 ingress:
-  domain: 192.168.0.13.nip.io
+  domain: 100.81.5.28.nip.io
   externalDNS: false
   ignoreLoadBalancer: true
   namespaceSubDomain: -jx.
