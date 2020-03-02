@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: synectiks-code
+  repo: jx-app
+  url: https://github.com/synectiks-code/jx-app.git
+  version: ""
+  versionURL: ""
