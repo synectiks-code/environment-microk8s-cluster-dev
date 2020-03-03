@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: synectiks-code
+    provider: github
+    repository: testservice
+  name: synectiks-code-testservice
+spec:
+  description: Imported application for synectiks-code/testservice
+  httpCloneURL: https://github.com/synectiks-code/testservice.git
+  org: synectiks-code
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testservice
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/synectiks-code/testservice.git

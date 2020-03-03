@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: synectiks-code
-  repo: jx-app
-  url: https://github.com/synectiks-code/jx-app.git
+  repo: testservice
+  url: https://github.com/synectiks-code/testservice.git
   version: ""
   versionURL: ""
