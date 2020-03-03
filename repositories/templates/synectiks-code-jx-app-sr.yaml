@@ -1,0 +1,23 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "1"
+  creationTimestamp: null
+  labels:
+    owner: synectiks-code
+    provider: github
+    repository: jx-app
+  name: synectiks-code-jx-app
+spec:
+  description: Imported application for synectiks-code/jx-app
+  httpCloneURL: https://github.com/synectiks-code/jx-app.git
+  org: synectiks-code
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-app
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/synectiks-code/jx-app.git

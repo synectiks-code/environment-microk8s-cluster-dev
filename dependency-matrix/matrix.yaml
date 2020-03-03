@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: synectiks-code
+  repo: testservice
+  url: https://github.com/synectiks-code/testservice.git
+  version: ""
+  versionURL: ""
